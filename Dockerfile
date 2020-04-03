@@ -18,6 +18,6 @@ COPY . /workspace
 
 EXPOSE 8000
 
-# ENTRYPOINT ["entrypoint.sh"]
-CMD bash
+ENTRYPOINT ["entrypoint.sh"]
+# CMD bash
 
