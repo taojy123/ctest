@@ -4,7 +4,7 @@ mkdir -p  /var/data;
 
 if [[ -z "$1" ]]; then
     bash
-elif [[ "$1" = "flower" ]]; then
+elif [[ "$1" = "worker" ]]; then
     echo "run celery worker";
     celery worker -A app;
 elif [[ "$1" = "flower" ]]; then
