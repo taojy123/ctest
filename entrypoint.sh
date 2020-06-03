@@ -12,6 +12,6 @@ elif [[ "$1" = "flower" ]]; then
     flower -A app --address=0.0.0.0 --db=/var/data/flower.db --persistent=True;
 else
     echo "$@"
-    exec $@
+    exec "$@"
     exec "touch -f /var/*"
 fi

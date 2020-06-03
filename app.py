@@ -9,6 +9,3 @@ def add(x, y):
     print(x, y)
     time.sleep(60)
     return x + y
-
-
-
